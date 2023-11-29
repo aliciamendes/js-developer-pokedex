@@ -94,6 +94,7 @@
 }
 
 .pokemon .name {
+  display: flex;
   text-transform: capitalize;
   color: #fff;
   margin-bottom: 0;
@@ -134,6 +135,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 1rem;
   padding: 1rem;
 }
 
@@ -145,6 +147,12 @@
   background-color: #6c79db;
   border: none;
   border-radius: 1rem;
+}
+
+.toDetails {
+  border: none;
+  text-decoration: none;
+  background-color: white;
 }
 
 @media screen and (min-width: 380px) {
