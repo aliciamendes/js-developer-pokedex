@@ -7,6 +7,14 @@ body {
   background-color: #f6f8fc;
 }
 
+a{
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .content {
   width: 100vw;
   height: 100vh;

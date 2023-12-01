@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
-
+    <link
+      rel="shortcut icon"
+      href="./assets//images//pokedex.jpg"
+      type="image/x-icon"
+    />
     <!-- Normalize CSS -->
     <link
       rel="stylesheet"
@@ -34,25 +38,27 @@
         <img src="./assets//images/arrow-left.png" alt="" />
       </a>
     </header>
-    <section class="content-poke">
-      <div class="content-header">
-        <div class="content-info">
-          <h1 class="poke-name">Bulbasaur</h1>
-          <ol class="types">
-            <li class="type">grass</li>
-            <li class="type">poison</li>
-          </ol>
-        </div>
-        <div>
-          <span class="number">#001</span>
-        </div>
-      </div>
-      <img
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-        alt="Bulbasaur"
-      />
+    <div class="content-poke">
+      <!-- Pokemons Details Here -->
+    </div>
+    <section class="content-details">
+      <nav class="nav-menu">
+        <ol class="menu">
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Base Stats</a>
+          </li>
+          <li>
+            <a href="">Evolution</a>
+          </li>
+          <li>
+            <a href="">Moves</a>
+          </li>
+        </ol>
+      </nav>
     </section>
-    <section class="content-details"></section>
 
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
