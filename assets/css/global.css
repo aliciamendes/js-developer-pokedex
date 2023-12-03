@@ -7,7 +7,7 @@ body {
   background-color: #f6f8fc;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -29,4 +29,24 @@ li {
     margin: 1rem auto;
     border-radius: 1rem;
   }
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(104, 104, 104); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
 }

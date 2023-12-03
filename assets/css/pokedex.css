@@ -17,7 +17,7 @@
 }
 
 .electric {
-  background-color: #f7cf2e;
+  background-color: #f7d233;
 }
 
 .ice {
@@ -270,7 +270,7 @@
 
 .description-about .about-li {
   margin-right: 0.3rem;
-  color: dimgray;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 380px) {
@@ -289,17 +289,36 @@
     flex-direction: row;
     align-items: center;
   }
+
+  .content-details img {
+    height: 280;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .pokemons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .content-poke {
     max-width: 1080px;
+  }
+
+  .content-details img {
+    height: 320px;
   }
 }
 
 @media screen and (min-width: 1080px) {
+  .content-poke {
+    max-width: 1920px;
+  }
 
+  .content-poke-visible {
+    max-width: 1080px;
+  }
+
+  .content-details img {
+    height: 360px;
+  }
 }

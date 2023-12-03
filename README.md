@@ -13,6 +13,7 @@ Este projeto foi desenvolvido com base nos cursos **Criando um Projeto com HTML/
   - A importância do `Normalize CSS`
   - O conceito `Mobile First`
   - Os displays `Grid Layout` e `Flexbox`
+  - A utilização de `Media Queries`
 
 - **Javascript**
 
@@ -30,7 +31,23 @@ Este projeto foi desenvolvido com base nos cursos **Criando um Projeto com HTML/
 
 ## Imagem do site
 
-![Imagem do site com alguns Pokemons](./assets/images/index.png)
+### Visualização da listagem de pokemons
+
+![Imagem do site com alguns Pokemons](./assets/images/readme/pokedex.jpg)
+
+### Visualização dos detalhes dos pokemons
+
+#### Mobile
+
+![Imagem do site com detalhes de pokemons](./assets/images/readme/pokedex-mobile.png)
+
+#### Tab
+
+![Imagem do site com detalhes de pokemons](./assets/images/readme/pokedex-pad.png)
+
+#### Web
+
+![Imagem do site com detalhes de pokemons](./assets/images/readme/pokedex-web.png)
 
 Veja como o site ficou, ao vivo, [clicando aqui](https://github.com/aliciamendes/js-developer-pokedex "Visitar o repositório da Pokedex").
 
