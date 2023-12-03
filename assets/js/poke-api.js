@@ -1,6 +1,6 @@
 const pokeApi = {};
 
-function convertPokeApiDetailToPokemon(pokeDetail, pokemonDetails) {
+function convertPokeApiDetailToPokemon(pokeDetail) {
   const pokemon = new Pokemon();
   pokemon.number = pokeDetail.id;
   pokemon.name = pokeDetail.name;
@@ -8,9 +8,11 @@ function convertPokeApiDetailToPokemon(pokeDetail, pokemonDetails) {
   pokemon.weight = pokeDetail.weight;
   pokemon.height = pokeDetail.height;
 
-  pokemon.abilities = pokeDetail.abilities.map(
+  const abilitie = pokeDetail.abilities.map(
     (abilitSlot) => abilitSlot.ability.name
   );
+
+  pokemon.abilities = abilitie;
 
   const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name);
   const [type] = types;
