@@ -33,7 +33,7 @@ Este projeto foi desenvolvido com base nos cursos **Criando um Projeto com HTML/
 
 ### Visualização da listagem de pokemons
 
-![Imagem do site com alguns Pokemons](./assets/images/readme/pokedex.jpg)
+![Imagem do site com alguns Pokemons](./assets/images/readme/index.png)
 
 ### Visualização dos detalhes dos pokemons
 
