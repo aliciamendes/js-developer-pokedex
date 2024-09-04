@@ -49,8 +49,6 @@ Este projeto foi desenvolvido com base nos cursos **Criando um Projeto com HTML/
 
 ![Imagem do site com detalhes de pokemons](./assets/images/readme/pokedex-web.png)
 
-Veja como o site ficou, ao vivo, [clicando aqui](https://github.com/aliciamendes/js-developer-pokedex "Visitar o repositório da Pokedex").
-
 ## Mais informações
 
 Este projeto fez parte da trilha Fundamentos de Front-End do bootcamp **Desenvolvimento Frontend com Angular** da **Digital Innovation One**. O mesmo projeto postado no Github foi entregue, como pedido, na plataforma da DIO.
